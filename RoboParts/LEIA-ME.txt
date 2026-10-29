@@ -1,0 +1,24 @@
+RoboParts
+=========
+
+Login do admin: admin@roboparts.com / admin123
+
+SALVAMENTO
+Usuarios, categorias e produtos continuam em $_SESSION (como antes), mas agora tambem sao
+gravados em data/loja.json e relidos a cada acesso. Assim ficam salvos ate serem apagados.
+A pasta data/ e a pasta uploads/ precisam ter permissao de escrita.
+Para voltar ao modo so-sessao: PERSISTIR = false em php/includes/storage.php.
+Para recomecar do zero (volta aos produtos de exemplo): apague data/loja.json.
+
+IMAGENS PARA ADICIONAR DEPOIS (a extensao pode ser png, jpg, jpeg ou webp)
+  img/hero.png                      imagem do banner da home (opcional)
+  img/fundo-auth.jpg                fundo do painel de login/cadastro (opcional)
+  img/categorias/<slug>.png         imagem de cada categoria na home, ex.: robos-industriais.png
+  img/produtos/<nome>.png           produtos de exemplo:
+    industrial-1 .. industrial-4
+    humanoide-1  .. humanoide-4
+    social-1     .. social-4
+    agricola-1   .. agricola-4
+    cobot-1      .. cobot-4
+Produtos criados pelo painel salvam a imagem em uploads/ automaticamente.
+Enquanto a imagem nao existir, o site mostra um quadro cinza com "sem imagem".

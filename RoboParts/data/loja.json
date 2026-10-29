@@ -1,0 +1,56 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Administrador",
+            "email": "admin@roboparts.com",
+            "senha": "$2y$10$MnjUA1CoG\/SOzdNfr89vCuvODqGQE8EbQgHR9SlXtxZVR1DWy3Tyq",
+            "admin": true
+        }
+    ],
+    "categorias": [
+        {
+            "id": "robos-industriais",
+            "slug": "robos-industriais",
+            "nome": "Robôs industriais",
+            "descricao": "Braços articulados, SCARA, delta e robôs de solda para linhas de produção.",
+            "imagem": null,
+            "criado": 1
+        },
+        {
+            "id": "robos-humanoides",
+            "slug": "robos-humanoides",
+            "nome": "Robôs humanoides",
+            "descricao": "Plataformas bípedes e sobre rodas, mãos robóticas e kits de pesquisa.",
+            "imagem": null,
+            "criado": 2
+        },
+        {
+            "id": "robos-sociais",
+            "slug": "robos-sociais",
+            "nome": "Robôs sociais",
+            "descricao": "Robôs de atendimento, recepção, companhia e educação.",
+            "imagem": null,
+            "criado": 3
+        },
+        {
+            "id": "robos-agricolas",
+            "slug": "robos-agricolas",
+            "nome": "Robôs agrícolas",
+            "descricao": "Drones, robôs de monitoramento, capina e colheita para o campo.",
+            "imagem": null,
+            "criado": 4
+        },
+        {
+            "id": "robos-colaborativos",
+            "slug": "robos-colaborativos",
+            "nome": "Robôs colaborativos",
+            "descricao": "Cobots que trabalham ao lado de pessoas, com garras e estações prontas.",
+            "imagem": null,
+            "criado": 5
+        }
+    ],
+    "produtos": [
+       
+    ]
+}
